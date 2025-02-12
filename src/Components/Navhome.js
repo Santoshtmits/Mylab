@@ -74,16 +74,16 @@ const Navbar = () => {
           </div>
         )}
       </div>
-      <div className="h-[200px] grid grid-cols-2 gap-4 items-center justify-between"> 
+      <div className="h-[200px] grid grid-cols-2 gap-4 items-center justify-between "> 
         <img
         src={elcipse}
         alt="eclipse"
-          className="h-20 ml-[-25px] mt-[-50px] "
+          className="h-20 ml-[-25px] mt-[-50px] transition-transform duration-300 ease-in-out hover:scale-105 "
         />
         <img 
          src={elcipse}
          alt="eclipse"
-          className="h-24 ml-[-80px] mt-[-70px] "
+          className="h-24 ml-[-80px] mt-[-70px] mt-[-50px] transition-transform duration-300 ease-in-out hover:scale-105 "
         />
       </div>
       {/* Booking Section */}
@@ -122,7 +122,7 @@ const Navbar = () => {
   <img
     src={bookingImage}
     alt="Booking"
-    className="w-full h-auto ml-[20px] mt-[-230px] transition-transform duration-300 ease-in-out hover:scale-105"
+    className="w-full  ml-[20px] mt-[-230px] transition-transform duration-300 ease-in-out hover:scale-105"
   />
 </div>
 
