@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import doctorImage from "../assets/Images/Doc-Icon.svg";
+import doctorImage from "../assets/Images/Doc-Icons.png";
 import healthIcon from "../assets/Images/HealthIcon.svg";
 
 const Header = () => {

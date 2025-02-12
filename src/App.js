@@ -1,19 +1,28 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./Components/Herosection";
+import Home from "./Components/categoriestest";
+import HomeNAv from "./Components/Navhome";
+import Labtest from "./Components/Populartest"
+import Herosection from "./Components/Herosection";
 import Signup from "./Components/Signup";
-import  LogIn  from "./Components/NavbarLogin";
+import LogIn from "./Components/NavbarLogin";
 import OTPVerification from "./Components/Verification";
+import Pupular from "./Components/Faq";
+import Contact  from "./Components/Contact"
+import Footer from "./Components/Footer";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/signup" element={<Signup />} />
-        <Route path="/Login" element={<LogIn />} />
-        <Route path="/Verify" element={<OTPVerification />}/>
-      </Routes>
-    </BrowserRouter>
+    <Footer />
+    // <Contact />
+    // <Pupular />
+    // <Home />
+    //  <HomeNAv />
+    // <Labtest />
+    // <BrowserRouter>
+    //   <Routes>
+    //     <Route path="/herosection" element={<Herosection />} />
+    //   </Routes>
+    // </BrowserRouter>
   );
 }
 
