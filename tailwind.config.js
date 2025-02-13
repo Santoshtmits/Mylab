@@ -20,7 +20,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        mons: ['Montserrat', 'sans-serif'], // Make sure the font is available
+        mons: ['Montserrat'], 
       },
       fontWeight: {
         regular: 400, 
@@ -31,10 +31,14 @@ module.exports = {
       fontSize: {
         'xxs': '10px',  
         'tiny': '12px',
-        'xm': '14px', 
-        'xsl': '16px',
-        'xls': '24px',  
-        'xxl': '32px', 
+        'xm': '14px',
+        'ss': '13px', 
+        'sm': '16px',
+        'ms': '18px',
+        'base': '20px',
+        'xls': '24px', 
+         '2xl': '36px',
+        '1xxl': '32px', 
         '2xl': '44px',  
       },
     },

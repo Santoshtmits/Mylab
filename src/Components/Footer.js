@@ -11,12 +11,12 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start">
           {/* Left Side - Logo */}
           <div className="flex items-center space-x-3">
-            <img src={Logo} alt="MY Lab Logo" className="h-24" />
+            <img src={Logo} alt="MY Lab Logo" className="h-[120px] w-[400px] mt-[-10px]" />
             
           </div>
 
           {/* Right Side - Navigation Links */}
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-x-10 gap-y-2 mt-4 md:mt-0 text-sm text-gray-600">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-x-8 gap-y-4 mt-8 font-small text-sm text-[#000000]">
             <a href="#" className="hover:underline">About</a>
             <a href="#" className="hover:underline">Test Services</a>
             <a href="#" className="hover:underline">Contact us</a>
@@ -27,8 +27,8 @@ const Footer = () => {
         </div>
 
         {/* Bottom Section */}
-        <div className="mt-6 border-t pt-4 text-center text-sm text-gray-500">
-          Copyright © 2024 My Lab. All Rights Reserved.
+        <div className="border-t pt-4 font-small text-sm text-[#000000]">
+        Copyright © 2024 My Lab. All Rights Reserved.
         </div>
       </div>
     </footer>

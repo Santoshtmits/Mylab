@@ -9,6 +9,7 @@ import OTPVerification from "./Components/Verification";
 import Pupular from "./Components/Faq";
 import Contact  from "./Components/Contact"
 import Footer from "./Components/Footer";
+import ProductList from "./Pages/ProductListing"
 
 function App() {
   return (

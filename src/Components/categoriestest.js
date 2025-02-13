@@ -20,8 +20,8 @@ const TestCategories = () => {
     <>
       <Home />
       <section className="w-full py-10 bg-[#F8F8F8] ">
-        <div className="max-w-7xl mx-auto px-6 sm:px-6 lg:px-8">
-          <h2 className="text-xl font-bold text-gray-800 mb-6">Test's by MyLab</h2>
+        <div className="max-w-7xl mx-auto px-14">
+          <h2 className="text-2xl font-bold text-[#272121] mb-6">Test's by MyLab</h2>
           <div className="flex flex-wrap justify-start gap-4 ">
             {categories.map((category, index) => (
               <div
@@ -29,7 +29,7 @@ const TestCategories = () => {
                 className="bg-[#FFFFFF] rounded-lg flex flex-col items-center p-4 min-w-[180px]  transition-transform transform hover:scale-110"
               >
                 <img src={category.icon} alt={category.name} className="w-12 h-12 mb-2" />
-                <p className="text-gray-700 text-sm font-medium">{category.name}</p>
+                <p className="text-[#000000] text-ms font-medium">{category.name}</p>
               </div>
             ))}
           </div>
